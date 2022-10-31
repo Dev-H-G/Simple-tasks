@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: orange;
+}
+h1{
+    text-align: center;
+    font-size: 6rem;
+    margin: 20px 0;
+    color: aliceblue;
+    font-family:  'Times New Roman', Times, serif;
+}
+.writedoing{
+    width: 600px;
+    text-align: center;
+    height: 40px;
+    display: flex;
+    margin:  0 auto;
+}
+.writedoing input{
+    width: 260px;
+    height: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+.adddoing{
+    height: 100%;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.doinglisttype{
+    margin-left: 30px;
+    width: 200px;
+    height: 40px;
+
+}
+.doinglisttype select{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
