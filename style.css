@@ -26,13 +26,18 @@ h1{
     font-size: 1.5rem;
     font-weight: bold;
     border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
 
 }
+
 .adddoing{
     height: 100%;
     width: 40px;
     cursor: pointer;
     border-radius: 10px;
+    margin-left: 5px;
 }
 .doinglisttype{
     margin-left: 30px;
@@ -46,4 +51,47 @@ h1{
     border-radius: 15px;
     font-size: 1.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button {
+    border: none;
+    height: 40px;
+}
+button .buttons{
+    height: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.tododivclass{
+    width: 400px;
+    height: 43px;
+    cursor: pointer;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin:15px ;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+
+}
+.tododivclass li{flex: 1;}
+.todo-item{
+    padding: 0rem 0.5rem;
+}
+.doinglist{
+    display: grid;
+}
+.listul{
+    list-style-type: none;
+    margin: 30px auto;
+    text-align: center;
+}
+.completed {
+    background-color: greenyellow;
+  text-decoration: line-through;
+
 }
